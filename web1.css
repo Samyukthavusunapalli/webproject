@@ -1,0 +1,203 @@
+.maincontainer
+{
+     background-image: url("C:\\Users\\SAMYUKTHA\\Downloads\\hospitalwebimage.webp");
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 900px;
+     text-size-adjust: 5px solid black;
+
+}
+section
+{
+     font-size: 70px;
+/*     border-bottom: 1px solid black;*/
+     color: wheat;
+     background:rgba(55, 25, 155, 0.6);
+     text-align: center;
+     position: sticky;
+
+
+}
+section,.downline
+{
+     position: sticky;
+     top: 0px;
+}
+.downline
+{
+    font-size: 40px; 
+    background:rgba(55, 25, 155, 0.6);
+    text-align: right;
+    color: wheat;
+/*    border-bottom: 3px solid black;*/
+position: sticky;
+}
+header
+{
+     height: 30px;
+     padding: 10px;
+     background-color: rgba(250, 250, 250, 0.6);
+     margin: 5px;
+}
+
+header a
+{
+     height: 10px;
+     padding: 12px;
+     margin: 120px;
+     font-size: 20px;
+     position: relative;
+     text-decoration: none;
+     color:black;
+     border: 1px solid #FF3333;
+     border-radius: 40px;
+   background-color:indianred;
+}
+ header a:hover
+{
+   background-color:whitesmoke;
+   text-transform: uppercase;
+   box-shadow: 5px 5px darkblue;
+   transition: 0.6s;
+}
+.left
+{
+    background-color:transparent;
+    float: left;
+    height: 250px;
+    width: 50%;
+}
+p
+{
+font-size: 70px;
+color:black;
+}
+.right
+{
+   background-color:transparent;
+    float: left;
+    height: 500px;
+    width: 50%;  
+    text-align: center;
+    text-decoration-color: darkblue;
+    font-size: 20px;
+}
+fieldset
+{
+     width: 50%;
+     margin:100px auto;
+     background-color: #33D1FF;
+/*     /*float: left;*/
+font-size: 20px;
+}
+footer
+
+{
+     color: black;
+     font-size: 50px;
+     margin-top: 50px;
+
+
+
+}
+
+.cardiology
+{
+     float: right;
+    margin-top: 100px;
+     margin-left: 80px;
+     border: 5px solid black;
+      border-radius: 50%;
+     background-repeat: no-repeat;
+     background-color:steelblue;
+}
+.cardiology:hover
+{
+   cursor: pointer;   
+}
+.nu
+{
+     
+     background-color:steelblue ;
+     float: right;
+     margin-top: 105px;
+      margin-left: 80px;
+      border: 5px solid black;
+       border-radius: 50%;
+      
+
+}
+.nu:hover
+{
+      cursor: pointer;
+}
+.ortho
+{
+
+     background-color:slateblue;
+     float: right;
+     margin-top: 100px;
+     cursor: pointer;
+     margin-left: 80px;
+     border: 5px solid black;
+     background-repeat: no-repeat;
+      border-radius: 50%;
+}
+.neurology
+{
+     
+     background-color:black;
+      float: right;
+     margin-top: 50px;
+      margin-left: 80px;              
+      border: 5px solid black;
+      background-repeat:no-repeat;
+       border-radius: 50%;
+}
+.neurology:hover
+{
+      cursor: pointer;
+}
+.gastroenterology
+{
+     
+     background-color:blueviolet;
+     float: right;
+     margin-top:50px;
+     margin-left: 85px;
+      border: 5px solid black;
+      background-repeat: no-repeat; 
+      border-radius: 50%;
+    
+}
+
+.gastroenterology:hover
+{
+      cursor: pointer;
+}
+
+ 
+img 
+{
+     border-radius: 50%;
+}
+.names
+{
+     width: 100%;
+     height: 50px;
+     background-color: red;
+     float: left;
+}
+.names a 
+{     font-size: 20px;
+/*     position: relative;*/
+     text-decoration: none;
+     color:black;
+     border: 1px solid black;
+     border-radius: 40px;
+     margin:5px 100px 15px 60px;
+   background-color:whitesmoke;
+   padding: 2px;
+}
